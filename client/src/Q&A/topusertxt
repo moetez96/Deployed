@@ -1,0 +1,32 @@
+<div className="ui segment" style={{display: 'flex'}}>
+                <div className="item" style={{justifyContent: 'flex-start', width: '236px'}}>
+                    <img className="ui avatar image" src={faker.image.avatar()} alt="top"/>
+                    <div className="content">
+                        <div className="ui sub header">{faker.name.firstName()} {faker.name.lastName()}</div>
+                        {faker.name.jobType()}
+                    </div>
+                </div>
+                <div style={{justifyContent: 'flex-end'}}><i
+                    className="trophy icon"/>{faker.random.number()}</div>
+            </div>
+
+ <div className="ui segment">
+                <Accordion.Toggle as={Accordion} variant="link" eventKey="0">
+                    <div style={{display: 'flex'}}>
+                        <div className="item" style={{justifyContent: 'flex-start', width: '236px'}}>
+                            <img className="ui avatar image" src={faker.image.avatar()} alt="top"/>
+                            <div className="content">
+                                <div
+                                    className="ui sub header">{faker.name.firstName()} {faker.name.lastName()}</div>
+                                {faker.name.jobType()}
+                            </div>
+                        </div>
+                        <div style={{justifyContent: 'flex-end'}}><i
+                            className="trophy icon"/>{faker.random.number()}
+                        </div>
+                    </div>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="0">
+                    <div style={{marginTop: '10px'}}>Hello! I'm the body</div>
+                </Accordion.Collapse>
+            </div>

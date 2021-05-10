@@ -1,0 +1,38 @@
+#upVote:hover {
+    transform: scale(1.5);
+    animation-name: up-icon;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes up-icon {
+    100% {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: whitesmoke;
+        color: darkblue;
+    }
+}
+
+#downVote:hover {
+    transform: scale(1.5);
+    animation-name: down-icon;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes down-icon {
+    100% {
+        display: inline-block;
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background-color: whitesmoke;
+        color: darkred;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+    #my-content { display: none; }   /* hide it elsewhere */
+}

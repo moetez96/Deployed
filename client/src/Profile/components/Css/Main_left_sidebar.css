@@ -1,0 +1,20 @@
+.profile_pic{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+.box{
+    width: 250px;        
+}
+
+.box2{
+}
+
+.box.small{
+    height: 200px;
+    width:200px;
+}
+
+.box2.big{
+  height: 400px;
+}
