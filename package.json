@@ -51,7 +51,11 @@
     "serve": "^11.3.2",
     "socket.io": "^4.0.1",
     "text-censor": "^1.0.2",
-    "twilio": "^3.61.0"
+    "twilio": "^3.61.0",
+    "concurrently": "^4.1.0",
+    "mocha": "^6.2.1",
+    "should": "^13.2.3",
+    "supertest": "^4.0.2"
   },
   "devDependencies": {
     "axios": "^0.21.1"
